@@ -1,6 +1,5 @@
 import React from 'react'
 import Pokecard from './Pokecard';
-import Card from 'react-bootstrap/Card'
 
 const Pokedex = ({ pokemon, totalExp, isWinner }) => {
     return (
