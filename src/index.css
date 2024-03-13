@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+#root {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  width: 88%;
+  border-radius: 1rem;
+  padding: 2rem 1rem 0rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #abb6ca;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6d1e6;
+  width: 11rem;
+  height: 12rem;
+  margin: 0 .5rem 2rem .5rem;
+}
+.card-title, .winner {
+  font-size: 1.1rem;
+  color: blue;
+}
+.card-body {
+  flex-grow:unset;
+  flex-shrink:unset;
+  font-size: .9rem;
+  text-align: center;
+  padding: 1px;
+}
+.type {
+  text-transform: capitalize;
+}
+.card-img-top {
+  width: 100px;
+}
+
